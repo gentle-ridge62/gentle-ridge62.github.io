@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>啊啊啊不要啊啊啊慢一点视频 | 官方品牌 · 慢生活影像社区</title>
+<meta name="description" content="啊啊啊不要啊啊啊慢一点视频官方网站，慢生活影像社区与原创高清视频平台，汇聚治愈系创作者与企业精品内容，持续运营值得信赖。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f4a3a'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23d9c7a3'/%3E%3Cpath d='M27 26l14 6-14 6z' fill='%232f4a3a'/%3E%3C/svg%3E">
+<style>
+:root{
+  --sl-forest:#2f4a3a;
+  --sl-forest-deep:#1f3327;
+  --sl-moss:#5c7a5e;
+  --sl-sage:#a9bfa4;
+  --sl-cream:#f6f3ea;
+  --sl-sand:#e7dfcc;
+  --sl-clay:#c08a5e;
+  --sl-ink:#26302a;
+  --sl-muted:#61705f;
+  --sl-line:#d9d3c1;
+  --sl-white:#fffdf7;
+  --sl-radius:14px;
+  --sl-shadow:0 10px 30px rgba(38,48,42,.10);
+  --sl-head-h:116px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:var(--sl-head-h)}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--sl-ink);
+  background:var(--sl-cream);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+ul{list-style:none}
+.sl-topbar{
+  background:var(--sl-forest-deep);
+  color:var(--sl-cream);
+  font-size:13px;
+  letter-spacing:.02em;
+}
+.sl-topbar-inner{
+  max-width:1200px;margin:0 auto;
+  padding:10px 24px;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+}
+.sl-topbar-badge{
+  flex:none;
+  background:var(--sl-clay);
+  color:#fff;font-weight:700;
+  font-size:12px;letter-spacing:.08em;
+  padding:2px 10px;border-radius:999px;
+}
+.sl-topbar-marquee{
+  flex:1;min-width:0;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  color:#dfe8d8;
+}
+.sl-topbar a{color:#f4e4c4;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.sl-header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(246,243,234,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--sl-line);
+}
+.sl-header-inner{
+  max-width:1200px;margin:0 auto;
+  padding:14px 24px;
+  display:flex;align-items:center;gap:24px;
+}
+.sl-logo{display:flex;align-items:center;gap:10px;flex:none}
+.sl-logo-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:var(--sl-forest);
+  display:grid;place-items:center;flex:none;
+}
+.sl-logo-mark svg{width:20px;height:20px}
+.sl-logo-text{display:flex;flex-direction:column;line-height:1.25}
+.sl-logo-name{font-weight:800;font-size:15px;letter-spacing:.02em;color:var(--sl-forest-deep)}
+.sl-logo-sub{font-size:10px;letter-spacing:.26em;color:var(--sl-muted);text-transform:uppercase}
+.sl-nav{margin-left:auto;display:flex;align-items:center;gap:20px}
+.sl-nav a{
+  font-size:14px;font-weight:600;color:var(--sl-ink);
+  padding:6px 2px;border-bottom:2px solid transparent;
+  transition:color .18s,border-color .18s;
+}
+.sl-nav a:hover{color:var(--sl-forest);border-bottom-color:var(--sl-clay)}
+.sl-header-tools{display:flex;align-items:center;gap:10px}
+.sl-search{
+  display:flex;align-items:center;gap:6px;
+  background:var(--sl-white);
+  border:1px solid var(--sl-line);
+  border-radius:999px;
+  padding:5px 6px 5px 14px;
+  transition:box-shadow .18s;
+}
+.sl-search:focus-within{box-shadow:0 0 0 3px rgba(92,122,94,.22)}
+.sl-search input{
+  border:none;outline:none;background:transparent;
+  font-size:13px;width:150px;color:var(--sl-ink);
+}
+.sl-search input::placeholder{color:#9aa596}
+.sl-search button{
+  border:none;background:var(--sl-forest);color:#fff;
+  font-size:12px;font-weight:700;letter-spacing:.04em;
+  padding:6px 14px;border-radius:999px;
+  transition:background .18s;
+}
+.sl-search button:hover{background:var(--sl-forest-deep)}
+.sl-burger{
+  display:none;border:none;background:var(--sl-white);
+  border:1px solid var(--sl-line);border-radius:10px;
+  width:40px;height:40px;padding:10px;flex-direction:column;justify-content:space-between;
+}
+.sl-burger span{display:block;height:2px;background:var(--sl-forest);border-radius:2px;transition:transform .2s,opacity .2s}
+.sl-burger.is-open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.sl-burger.is-open span:nth-child(2){opacity:0}
+.sl-burger.is-open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.sl-mobile-nav{
+  display:none;border-top:1px solid var(--sl-line);
+  background:var(--sl-cream);padding:8px 20px 18px;
+}
+.sl-mobile-nav.is-open{display:block}
+.sl-mobile-nav a{
+  display:block;padding:11px 4px;font-size:14px;font-weight:600;
+  border-bottom:1px dashed var(--sl-line);
+}
+.sl-mobile-nav a:last-child{border-bottom:none}
+.sl-search-feedback{
+  max-width:1200px;margin:0 auto;padding:0 24px 10px;
+  font-size:13px;color:var(--sl-forest);font-weight:600;
+  display:none;
+}
+.sl-search-feedback.is-visible{display:block}
+.sl-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.sl-section{padding:58px 0 8px}
+.sl-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;font-weight:800;letter-spacing:.18em;
+  color:var(--sl-moss);text-transform:uppercase;
+  margin-bottom:12px;
+}
+.sl-eyebrow::before{content:"";width:22px;height:2px;background:var(--sl-clay)}
+.sl-h2{
+  font-size:clamp(22px,3vw,31px);
+  line-height:1.32;font-weight:800;color:var(--sl-forest-deep);
+  margin-bottom:10px;letter-spacing:.01em;
+}
+.sl-h3{font-size:17px;font-weight:800;color:var(--sl-forest-deep);line-height:1.45}
+.sl-lead{font-size:15px;color:var(--sl-muted);max-width:720px}
+.sl-section-head{display:flex;flex-wrap:wrap;align-items:flex-end;gap:18px;justify-content:space-between;margin-bottom:28px}
+.sl-more-link{
+  font-size:13px;font-weight:800;color:var(--sl-forest);
+  border-bottom:2px solid var(--sl-clay);padding-bottom:2px;
+}
+.sl-more-link:hover{color:var(--sl-clay)}
+.sl-hero{
+  padding:44px 0 26px;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:46px;align-items:center;
+}
+.sl-hero-copy{max-width:560px}
+.sl-hero-h1{
+  font-size:clamp(32px,5.2vw,54px);
+  line-height:1.12;font-weight:900;letter-spacing:-.015em;
+  color:var(--sl-forest-deep);margin-bottom:18px;
+}
+.sl-hero-h1 em{
+  font-style:normal;position:relative;color:var(--sl-forest);
+  display:inline-block;
+}
+.sl-hero-h1 em::after{
+  content:"";position:absolute;left:0;right:0;bottom:2px;height:9px;
+  background:var(--sl-sage);opacity:.5;border-radius:3px;z-index:-1;
+}
+.sl-hero-tagline{
+  font-size:15px;font-weight:700;color:var(--sl-clay);
+  letter-spacing:.06em;margin-bottom:12px;
+}
+.sl-hero-desc{
+  font-size:15.5px;color:#3d4a3f;line-height:1.85;
+  margin-bottom:20px;
+}
+.sl-hero-stats{
+  display:flex;gap:30px;flex-wrap:wrap;
+  padding:18px 0;margin-bottom:24px;
+  border-top:1px solid var(--sl-line);border-bottom:1px solid var(--sl-line);
+}
+.sl-stat{min-width:90px}
+.sl-stat-num{font-size:26px;font-weight:900;color:var(--sl-forest);line-height:1.2;letter-spacing:-.02em}
+.sl-stat-label{font-size:12px;color:var(--sl-muted);letter-spacing:.04em;margin-top:2px}
+.sl-hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.sl-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  font-size:14px;font-weight:800;letter-spacing:.02em;
+  padding:12px 24px;border-radius:999px;border:none;
+  transition:transform .16s,box-shadow .16s,background .16s;
+}
+.sl-btn:hover{transform:translateY(-2px)}
+.sl-btn-primary{background:var(--sl-forest);color:#fff;box-shadow:0 8px 20px rgba(47,74,58,.28)}
+.sl-btn-primary:hover{background:var(--sl-forest-deep)}
+.sl-btn-ghost{background:var(--sl-white);color:var(--sl-forest-deep);border:1.5px solid var(--sl-line)}
+.sl-btn-ghost:hover{border-color:var(--sl-forest);color:var(--sl-forest)}
+.sl-hero-visual{position:relative;min-width:0}
+.sl-hero-frame{
+  border-radius:22px;overflow:hidden;
+  border:1px solid var(--sl-line);
+  box-shadow:var(--sl-shadow);
+  background:var(--sl-sand);
+}
+.sl-hero-frame img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.sl-hero-chip{
+  position:absolute;left:-14px;bottom:26px;
+  background:var(--sl-white);
+  border:1px solid var(--sl-line);
+  border-radius:14px;
+  padding:12px 16px;
+  box-shadow:var(--sl-shadow);
+  display:flex;align-items:center;gap:10px;
+  max-width:230px;
+}
+.sl-hero-chip-dot{width:10px;height:10px;border-radius:50%;background:#7fae8a;flex:none;box-shadow:0 0 0 4px rgba(127,174,138,.2)}
+.sl-hero-chip-txt{font-size:12.5px;font-weight:700;color:var(--sl-forest-deep);line-height:1.4}
+.sl-hero-chip-sub{font-size:11px;color:var(--sl-muted);font-weight:500}
+.sl-tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.sl-tag{
+  font-size:12px;font-weight:700;color:var(--sl-forest);
+  background:rgba(169,191,164,.28);
+  border:1px solid rgba(92,122,94,.25);
+  padding:4px 12px;border-radius:999px;
+}
+.sl-about-band{
+  margin:26px 0 0;
+  background:var(--sl-forest);
+  color:var(--sl-cream);
+  border-radius:22px;
+  padding:36px clamp(22px,4vw,46px);
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;
+  position:relative;overflow:hidden;
+}
+.sl-about-band::after{
+  content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;
+  border-radius:50%;background:rgba(192,138,94,.22);
+}
+.sl-about-band h2{font-size:clamp(20px,2.5vw,26px);font-weight:900;margin-bottom:12px;color:#fff}
+.sl-about-band p{font-size:14.5px;color:#dfe8d8;line-height:1.9}
+.sl-about-points{display:grid;gap:12px;position:relative;z-index:1}
+.sl-about-point{
+  background:rgba(255,253,247,.08);
+  border:1px solid rgba(255,253,247,.16);
+  border-radius:12px;padding:13px 16px;
+  display:flex;gap:12px;align-items:flex-start;
+}
+.sl-about-point b{font-size:13px;color:#f4e4c4;flex:none;width:74px;letter-spacing:.03em}
+.sl-about-point span{font-size:13.5px;color:#e9efe3;line-height:1.7}
+.sl-parallax-strip{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;
+  margin-top:16px;
+}
+.sl-parallax-strip figure{
+  border-radius:14px;overflow:hidden;border:1px solid var(--sl-line);
+  background:var(--sl-sand);
+}
+.sl-parallax-strip img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;transition:transform .5s}
+.sl-parallax-strip figure:hover img{transform:scale(1.045)}
+.sl-parallax-strip figcaption{font-size:11.5px;color:var(--sl-muted);padding:7px 10px;background:var(--sl-white);font-weight:600}
+.sl-video-layout{
+  display:grid;grid-template-columns:minmax(0,1.32fr) minmax(0,1fr);gap:26px;align-items:start;
+}
+.sl-feature-card{
+  background:var(--sl-white);
+  border:1px solid var(--sl-line);
+  border-radius:18px;overflow:hidden;
+  box-shadow:var(--sl-shadow);
+  min-width:0;
+}
+.sl-feature-cover{position:relative;background:var(--sl-sand)}
+.sl-feature-cover img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.sl-play-badge{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(20,32,24,0) 42%,rgba(20,32,24,.62));
+}
+.sl-play-btn{
+  width:58px;height:58px;border-radius:50%;
+  border:2px solid rgba(255,253,247,.9);
+  background:rgba(47,74,58,.62);
+  display:grid;place-items:center;
+  transition:transform .2s,background .2s;
+}
+.sl-play-btn::after{content:"";width:0;height:0;border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:4px}
+.sl-feature-card:hover .sl-play-btn{transform:scale(1.08);background:var(--sl-forest)}
+.sl-feature-duration{
+  position:absolute;right:12px;bottom:12px;
+  background:rgba(20,32,24,.8);color:#fff;
+  font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:6px;
+  letter-spacing:.04em;
+}
+.sl-feature-body{padding:20px 22px 22px}
+.sl-feature-body h3{font-size:18px;font-weight:800;color:var(--sl-forest-deep);line-height:1.5;margin-bottom:8px}
+.sl-feature-excerpt{font-size:14px;color:var(--sl-muted);line-height:1.75;margin-bottom:14px}
+.sl-meta-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:12.5px;color:var(--sl-muted)}
+.sl-meta-author{font-weight:800;color:var(--sl-forest)}
+.sl-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;padding-top:14px;border-top:1px dashed var(--sl-line)}
+.sl-action-btn{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:12.5px;font-weight:700;color:var(--sl-muted);
+  background:var(--sl-cream);border:1px solid var(--sl-line);
+  border-radius:999px;padding:6px 13px;
+  transition:color .16s,border-color .16s,background .16s;
+}
+.sl-action-btn:hover{color:var(--sl-forest);border-color:var(--sl-sage);background:#f0f4ec}
+.sl-action-btn.is-liked{color:#b4543f;border-color:#e6b8ab;background:#fdf1ed}
+.sl-action-btn.is-saved{color:var(--sl-forest);border-color:var(--sl-sage);background:#eef3e9}
+.sl-list-stack{display:grid;gap:14px;min-width:0}
+.sl-video-item{
+  background:var(--sl-white);
+  border:1px solid var(--sl-line);
+  border-radius:14px;
+  padding:16px 18px;
+  transition:transform .18s,box-shadow .18s,border-color .18s;
+  min-width:0;
+}
+.sl-video-item:hover{transform:translateY(-3px);box-shadow:var(--sl-shadow);border-color:var(--sl-sage)}
+.sl-video-item-head{display:flex;align-items:flex-start;gap:10px;justify-content:space-between}
+.sl-video-item h3{font-size:15px;font-weight:800;color:var(--sl-forest-deep);line-height:1.5}
+.sl-video-rank{
+  flex:none;font-size:12px;font-weight:900;color:var(--sl-clay);
+  border:1px solid var(--sl-line);border-radius:7px;padding:1px 8px;letter-spacing:.04em;
+}
+.sl-video-item p{font-size:13px;color:var(--sl-muted);margin-top:6px;line-height:1.7}
+.sl-video-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.sl-mini-tag{font-size:11px;font-weight:700;color:var(--sl-moss);background:#f0f2e8;border-radius:5px;padding:2px 8px}
+.sl-video-foot{
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px;
+  margin-top:11px;font-size:12px;color:var(--sl-muted);
+}
+.sl-video-foot .sl-meta-author{font-size:12px}
+.sl-icon-btn{
+  margin-left:auto;display:inline-flex;align-items:center;gap:5px;
+  font-size:11.5px;font-weight:700;color:var(--sl-muted);
+  background:none;border:1px solid var(--sl-line);border-radius:999px;
+  padding:4px 11px;transition:all .16s;
+}
+.sl-icon-btn:hover{color:var(--sl-forest);border-color:var(--sl-sage)}
+.sl-score-badge{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:11.5px;font-weight:800;color:var(--sl-forest);
+  background:#eaf0e3;border-radius:5px;padding:2px 8px;
+}
+.sl-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.sl-topic-card{
+  background:var(--sl-white);border:1px solid var(--sl-line);
+  border-radius:16px;padding:20px 20px 18px;
+  display:flex;flex-direction:column;gap:10px;
+  transition:transform .18s,box-shadow .18s;
+  min-width:0;
+}
+.sl-topic-card:hover{transform:translateY(-4px);box-shadow:var(--sl-shadow)}
+.sl-topic-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.sl-topic-state{
+  font-size:11px;font-weight:800;letter-spacing:.04em;
+  color:var(--sl-forest);background:#eaf0e3;border-radius:999px;padding:2px 10px;flex:none;
+}
+.sl-topic-state.is-hot{color:#a4543a;background:#fbeadf}
+.sl-topic-card h3{font-size:16px;font-weight:800;line-height:1.45;color:var(--sl-forest-deep)}
+.sl-topic-card > p{font-size:13px;color:var(--sl-muted);line-height:1.7}
+.sl-topic-list{display:grid;gap:6px;margin-top:2px;padding-top:10px;border-top:1px dashed var(--sl-line)}
+.sl-topic-list li{font-size:12.5px;color:#3f4c41;display:flex;gap:7px;align-items:baseline}
+.sl-topic-list li::before{content:"▸";color:var(--sl-clay);font-size:11px;flex:none}
+.sl-authors-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.sl-author-card{
+  background:var(--sl-white);border:1px solid var(--sl-line);
+  border-radius:16px;padding:20px;display:flex;gap:16px;
+  transition:transform .18s,box-shadow .18s;min-width:0;
+}
+.sl-author-card:hover{transform:translateY(-3px);box-shadow:var(--sl-shadow)}
+.sl-avatar{
+  width:56px;height:56px;border-radius:50%;flex:none;
+  display:grid;place-items:center;font-weight:900;font-size:20px;color:#fff;
+  letter-spacing:.02em;overflow:hidden;
+}
+.sl-author-main{min-width:0;flex:1}
+.sl-author-name{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.sl-author-name h3{font-size:15.5px;font-weight:800;color:var(--sl-forest-deep)}
+.sl-author-field{font-size:11.5px;font-weight:700;color:var(--sl-clay);background:#f8ecdf;border-radius:5px;padding:1px 8px}
+.sl-author-desc{font-size:13px;color:var(--sl-muted);line-height:1.72;margin-top:8px}
+.sl-author-stats{display:flex;gap:16px;margin-top:10px;font-size:12px;color:var(--sl-muted);flex-wrap:wrap}
+.sl-author-stats b{color:var(--sl-forest);font-size:13px;font-weight:800}
+.sl-review-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:26px;align-items:start}
+.sl-review-list{display:grid;gap:14px}
+.sl-review-item{
+  background:var(--sl-white);border:1px solid var(--sl-line);
+  border-radius:14px;padding:17px 19px;min-width:0;
+}
+.sl-review-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap}
+.sl-review-face{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:800;color:#fff;flex:none}
+.sl-review-name{font-size:13px;font-weight:800;color:var(--sl-forest-deep)}
+.sl-review-stars{font-size:11.5px;color:var(--sl-clay);letter-spacing:.1em}
+.sl-review-body{font-size:13.5px;color:#3d4a3f;line-height:1.8}
+.sl-review-date{font-size:11px;color:var(--sl-muted);margin-top:8px}
+.sl-score-panel{
+  background:var(--sl-forest);color:var(--sl-cream);
+  border-radius:18px;padding:26px 24px;position:sticky;top:calc(var(--sl-head-h) + 16px);
+}
+.sl-score-panel h3{font-size:16px;font-weight:800;color:#fff;margin-bottom:6px}
+.sl-score-big{font-size:44px;font-weight:900;line-height:1.1;letter-spacing:-.02em;color:#fff}
+.sl-score-big span{font-size:14px;font-weight:600;color:#cfdcc6;margin-left:4px}
+.sl-score-bars{display:grid;gap:11px;margin-top:18px}
+.sl-score-bar-row{font-size:12px;color:#dfe8d8}
+.sl-score-bar-line{display:flex;align-items:center;gap:10px;margin-top:4px}
+.sl-score-bar-track{flex:1;height:7px;border-radius:99px;background:rgba(255,253,247,.2);overflow:hidden}
+.sl-score-bar-fill{height:100%;border-radius:99px;background:var(--sl-sage)}
+.sl-score-bar-val{font-size:11.5px;font-weight:700;color:#f4e4c4;width:32px;text-align:right}
+.sl-score-note{font-size:12px;color:#cfdcc6;margin-top:16px;line-height:1.7;border-top:1px solid rgba(255,253,247,.18);padding-top:14px}
+.sl-faq-list{display:grid;gap:10px;max-width:860px}
+.sl-faq-item{
+  background:var(--sl-white);border:1px solid var(--sl-line);
+  border-radius:12px;overflow:hidden;
+}
+.sl-faq-item summary{
+  list-style:none;cursor:pointer;
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  padding:15px 18px;font-size:14px;font-weight:800;color:var(--sl-forest-deep);
+}
+.sl-faq-item summary::-webkit-details-marker{display:none}
+.sl-faq-item summary::after{content:"+";font-size:19px;font-weight:400;color:var(--sl-clay);line-height:1;transition:transform .18s}
+.sl-faq-item[open] summary::after{transform:rotate(45deg)}
+.sl-faq-item p{font-size:13.5px;color:var(--sl-muted);line-height:1.8;padding:0 18px 16px}
+.sl-news-strip{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;
+}
+.sl-news-card{
+  background:var(--sl-white);border:1px solid var(--sl-line);
+  border-radius:14px;padding:18px 19px;min-width:0;
+  border-top:3px solid var(--sl-clay);
+}
+.sl-news-date{font-size:11.5px;font-weight:800;letter-spacing:.06em;color:var(--sl-clay)}
+.sl-news-card h3{font-size:14.5px;font-weight:800;margin:7px 0 6px;line-height:1.5;color:var(--sl-forest-deep)}
+.sl-news-card p{font-size:12.8px;color:var(--sl-muted);line-height:1.72}
+.sl-partner-row{display:flex;flex-wrap:wrap;gap:10px}
+.sl-partner{
+  font-size:12.5px;font-weight:800;color:var(--sl-muted);
+  background:var(--sl-white);border:1px solid var(--sl-line);
+  border-radius:999px;padding:8px 18px;letter-spacing:.03em;
+}
+.sl-footer{
+  margin-top:56px;background:var(--sl-forest-deep);color:#cfdcc6;
+  padding:46px 0 26px;
+}
+.sl-footer-grid{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(2,minmax(0,1fr));gap:32px}
+.sl-footer-brand h2{font-size:18px;font-weight:900;color:#fff;letter-spacing:.02em;margin-bottom:10px}
+.sl-footer-brand p{font-size:13px;line-height:1.85;color:#b9c9b3;max-width:380px}
+.sl-footer-col h3{font-size:13px;font-weight:800;color:#f4e4c4;letter-spacing:.1em;margin-bottom:12px}
+.sl-footer-col a{display:block;font-size:13px;color:#c2d0bb;padding:4px 0;transition:color .16s}
+.sl-footer-col a:hover{color:#fff}
+.sl-footer-bottom{
+  margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,253,247,.14);
+  display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:space-between;
+  font-size:12px;color:#9fb09a;
+}
+.sl-reveal{opacity:1;transform:none}
+.sl-js .sl-reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
+.sl-js .sl-reveal.is-in{opacity:1;transform:none}
+.sl-toast{
+  position:fixed;left:50%;bottom:30px;transform:translate(-50%,14px);
+  background:var(--sl-forest-deep);color:#fff;
+  font-size:13px;font-weight:700;letter-spacing:.02em;
+  padding:11px 22px;border-radius:999px;
+  box-shadow:0 12px 30px rgba(20,32,24,.35);
+  opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;z-index:200;
+  max-width:88vw;text-align:center;
+}
+.sl-toast.is-visible{opacity:1;transform:translate(-50%,0)}
+.sl-back-top{
+  position:fixed;right:22px;bottom:24px;z-index:90;
+  width:44px;height:44px;border-radius:50%;
+  background:var(--sl-forest);color:#fff;border:none;
+  font-size:17px;font-weight:800;
+  box-shadow:0 8px 22px rgba(47,74,58,.35);
+  opacity:0;pointer-events:none;transform:translateY(10px);
+  transition:opacity .22s,transform .22s;
+}
+.sl-back-top.is-visible{opacity:1;pointer-events:auto;transform:none}
+.sl-modal-mask{
+  position:fixed;inset:0;z-index:150;
+  background:rgba(20,32,24,.5);
+  display:none;align-items:center;justify-content:center;padding:20px;
+}
+.sl-modal-mask.is-open{display:flex}
+.sl-modal{
+  background:var(--sl-cream);border-radius:18px;
+  width:100%;max-width:520px;max-height:86vh;overflow:auto;
+  padding:26px 26px 24px;position:relative;
+  box-shadow:0 26px 70px rgba(20,32,24,.4);
+}
+.sl-modal-close{
+  position:absolute;top:12px;right:12px;
+  width:32px;height:32px;border-radius:50%;border:none;
+  background:var(--sl-white);color:var(--sl-forest-deep);
+  font-size:17px;line-height:1;font-weight:700;
+}
+.sl-modal h3{font-size:18px;font-weight:900;color:var(--sl-forest-deep);margin-bottom:6px;padding-right:30px}
+.sl-modal-sub{font-size:12.5px;color:var(--sl-muted);margin-bottom:16px}
+.sl-modal .sl-field{display:grid;gap:6px;margin-bottom:13px}
+.sl-modal label{font-size:12.5px;font-weight:800;color:var(--sl-forest-deep)}
+.sl-modal input,.sl-modal textarea,.sl-modal select{
+  width:100%;border:1px solid var(--sl-line);border-radius:10px;
+  padding:10px 12px;font-size:13px;font-family:inherit;color:var(--sl-ink);
+  background:var(--sl-white);outline:none;
+}
+.sl-modal input:focus,.sl-modal textarea:focus,.sl-modal select:focus{border-color:var(--sl-sage);box-shadow:0 0 0 3px rgba(169,191,164,.3)}
+.sl-modal textarea{resize:vertical;min-height:84px}
+.sl-modal-actions{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.sl-modal-actions .sl-btn{flex:1;min-width:130px;padding:11px 18px}
+@media (max-width:1000px){
+  .sl-hero{grid-template-columns:minmax(0,1fr);gap:30px}
+  .sl-about-band{grid-template-columns:minmax(0,1fr);gap:22px}
+  .sl-video-layout{grid-template-columns:minmax(0,1fr)}
+  .sl-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sl-review-layout{grid-template-columns:minmax(0,1fr)}
+  .sl-score-panel{position:static}
+  .sl-news-strip{grid-template-columns:minmax(0,1fr)}
+  .sl-footer-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .sl-nav{display:none}
+  .sl-burger{display:flex}
+}
+@media (max-width:720px){
+  :root{--sl-head-h:104px}
+  .sl-wrap{padding:0 18px}
+  .sl-header-inner{padding:12px 18px;gap:12px}
+  .sl-header-tools .sl-search{display:none}
+  .sl-header-tools .sl-header-search-toggle{display:none}
+  .sl-authors-grid{grid-template-columns:minmax(0,1fr)}
+  .sl-topic-grid{grid-template-columns:minmax(0,1fr)}
+  .sl-parallax-strip{grid-template-columns:minmax(0,1fr)}
+  .sl-hero-stats{gap:22px}
+  .sl-footer-grid{grid-template-columns:minmax(0,1fr)}
+  .sl-topbar-inner{padding:9px 16px;font-size:12px}
+  .sl-search input{width:110px}
+  .sl-back-top{right:14px;bottom:16px}
+  .sl-hero-chip{position:static;margin-top:12px;max-width:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .sl-js .sl-reveal{opacity:1;transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body class="sl-js">
+
+<div class="sl-topbar" role="region" aria-label="站内公告">
+  <div class="sl-topbar-inner">
+    <span class="sl-topbar-badge">公告</span>
+    <p class="sl-topbar-marquee">「慢一点·冬日常」专题今日上线 12 条新影像；社区投稿通道开放至 11 月 30 日；创作者扶持计划第 7 期名单已公布。 <a href="#sl-news">查看更新详情</a></p>
+  </div>
+</div>
+
+<header class="sl-header" id="sl-top">
+  <div class="sl-header-inner">
+    <a class="sl-logo" href="#sl-top" aria-label="啊啊啊不要啊啊啊慢一点视频官方网站首页">
+      <span class="sl-logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5.4" fill="#d9c7a3"/><path d="M10.2 9.4l5.4 2.6-5.4 2.6z" fill="#2f4a3a"/></svg>
+      </span>
+      <span class="sl-logo-text">
+        <span class="sl-logo-name">啊啊啊不要啊啊啊慢一点视频</span>
+        <span class="sl-logo-sub">Slow Motion Studio</span>
+      </span>
+    </a>
+    <nav class="sl-nav" aria-label="主导航">
+      <a href="#sl-focus">焦点</a>
+      <a href="#sl-topics">专题企划</a>
+      <a href="#sl-authors">创作者</a>
+      <a href="#sl-voices">口碑</a>
+      <a href="#sl-news">企业动态</a>
+      <a href="#sl-faq">帮助</a>
+    </nav>
+    <div class="sl-header-tools">
+      <form class="sl-search" role="search" id="sl-search-form" aria-label="站内搜索">
+        <input type="search" id="sl-search-input" placeholder="搜视频 / 创作者 / 专题" aria-label="搜索关键词">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="sl-burger" id="sl-burger" type="button" aria-label="展开导航菜单" aria-expanded="false" aria-controls="sl-mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="sl-mobile-nav" id="sl-mobile-nav">
+    <a href="#sl-focus">焦点内容</a>
+    <a href="#sl-topics">专题企划</a>
+    <a href="#sl-authors">创作者矩阵</a>
+    <a href="#sl-voices">用户口碑</a>
+    <a href="#sl-news">企业动态</a>
+    <a href="#sl-faq">常见问题</a>
+  </div>
+</header>
+<div class="sl-search-feedback" id="sl-search-feedback" aria-live="polite"></div>
+
+<main>
+  <div class="sl-wrap">
+    <section class="sl-hero" aria-labelledby="sl-hero-title">
+      <div class="sl-hero-copy">
+        <p class="sl-hero-tagline">官方 · 原创 · 高清 · 慢生活影像</p>
+        <h1 class="sl-hero-h1" id="sl-hero-title">啊啊啊不要啊啊啊慢一点视频</h1>
+        <p class="sl-hero-desc">一个把节奏放慢的原创高清视频社区。我们相信，真正有力量的内容不必催促观众——它让画面自己呼吸，让情绪慢慢抵达。作为垂直领域持续运营的品牌官网，这里汇集治愈影像、手作日常、城市漫步与创作者访谈，陪伴每一位愿意慢下来的人。</p>
+        <div class="sl-hero-stats">
+          <div class="sl-stat">
+            <div class="sl-stat-num">2,380+</div>
+            <div class="sl-stat-label">原创高清作品</div>
+          </div>
+          <div class="sl-stat">
+            <div class="sl-stat-num">146</div>
+            <div class="sl-stat-label">签约创作者</div>
+          </div>
+          <div class="sl-stat">
+            <div class="sl-stat-num">93%</div>
+            <div class="sl-stat-label">社区口碑好评</div>
+          </div>
+        </div>
+        <div class="sl-hero-btns">
+          <a class="sl-btn sl-btn-primary" href="#sl-focus">进入焦点内容</a>
+          <button class="sl-btn sl-btn-ghost" type="button" id="sl-submit-open">报名投稿</button>
+          <a class="sl-btn sl-btn-ghost" href="#sl-about">了解品牌</a>
+        </div>
+        <div class="sl-tag-row" aria-label="热门标签">
+          <span class="sl-tag">#慢生活影像</span>
+          <span class="sl-tag">#手作日常</span>
+          <span class="sl-tag">#城市漫步</span>
+          <span class="sl-tag">#创作者访谈</span>
+        </div>
+      </div>
+      <div class="sl-hero-visual">
+        <div class="sl-hero-frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 480'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23d8e2c8'/%3E%3Cstop offset='1' stop-color='%23f2ecd9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='480' fill='url(%23sky)'/%3E%3Ccircle cx='492' cy='112' r='58' fill='%23e8d3a8' opacity='.85'/%3E%3Cpath d='M0 330 Q140 282 300 318 T640 300 V480 H0 Z' fill='%235c7a5e' opacity='.9'/%3E%3Cpath d='M0 372 Q170 330 340 366 T640 352 V480 H0 Z' fill='%232f4a3a'/%3E%3Cg fill='%23f6f3ea'%3E%3Ccircle cx='190' cy='146' r='4'/%3E%3Ccircle cx='228' cy='176' r='3'/%3E%3Ccircle cx='262' cy='134' r='2.6'/%3E%3C/g%3E%3Cpath d='M96 480 L150 300 L182 300 L136 480 Z' fill='%23474a3a' opacity='.55'/%3E%3Cpath d='M120 300 Q150 262 180 300' stroke='%23474a3a' stroke-width='5' fill='none' opacity='.55'/%3E%3Crect x='420' y='264' width='150' height='98' rx='10' fill='%23fffdf7' opacity='.82'/%3E%3Crect x='436' y='280' width='70' height='8' rx='4' fill='%23a9bfa4'/%3E%3Crect x='436' y='298' width='110' height='6' rx='3' fill='%23d9d3c1'/%3E%3Crect x='436' y='312' width='92' height='6' rx='3' fill='%23d9d3c1'/%3E%3Ccircle cx='520' cy='330' r='15' fill='%23c08a5e' opacity='.7'/%3E%3C/svg%3E"
+               alt="啊啊啊不要啊啊啊慢一点视频品牌主视觉：山丘与慢行小径" width="640" height="480">
+        </div>
+        <div class="sl-hero-chip">
+          <span class="sl-hero-chip-dot" aria-hidden="true"></span>
+          <span class="sl-hero-chip-txt">正在直播 · 冬夜手作间<span class="sl-hero-chip-sub">1,284 人同时在线</span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-about" aria-labelledby="sl-about-title">
+      <div class="sl-about-band sl-reveal">
+        <div>
+          <h2 id="sl-about-title">把节奏放慢的官方网站</h2>
+          <p>啊啊啊不要啊啊啊慢一点视频是一家专注慢生活影像的企业，深耕治愈、手作与城市观察等垂直领域。我们以官方网站为原点，搭建创作者与观众之间值得信赖的内容生态：坚持原创、正版与高清标准，让每一次播放都成为一次安静的陪伴。平台持续运营六年，累计服务超过八十万注册用户，并保持每季度发布企业社会责任报告。</p>
+        </div>
+        <div class="sl-about-points">
+          <div class="sl-about-point"><b>原创正版</b><span>全部成片经过版权核验，签约创作者拥有完整署名与分成体系，拒绝搬运与二次剪辑。</span></div>
+          <div class="sl-about-point"><b>高清品质</b><span>主推内容默认 1080P 起，重点专题支持 4K 与 60 帧流畅播放，移动端自适应码率。</span></div>
+          <div class="sl-about-point"><b>社区陪伴</b><span>以评论、收藏与共看房间连接同好，创作者定期在社区答疑，形成有温度的互动。</span></div>
+        </div>
+      </div>
+      <div class="sl-parallax-strip sl-reveal" aria-label="慢生活影像精选画面">
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23e9e4d3'/%3E%3Cpath d='M0 190 Q100 150 200 182 T400 172 V250 H0 Z' fill='%23a9bfa4'/%3E%3Cpath d='M0 214 Q120 186 240 208 T400 200 V250 H0 Z' fill='%235c7a5e'/%3E%3Ccircle cx='316' cy='70' r='28' fill='%23e8d3a8'/%3E%3Cpath d='M60 250 L86 168 L98 168 L78 250 Z' fill='%233a4a3a' opacity='.5'/%3E%3C/svg%3E"
+               alt="慢生活影像画面：清晨草坡与远处柔和日光" width="400" height="250">
+          <figcaption>清晨草坡 · 晨间漫步系列</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23f3ecdd'/%3E%3Crect x='52' y='92' width='132' height='112' rx='8' fill='%23fffdf7' stroke='%23d9d3c1'/%3E%3Crect x='72' y='112' width='56' height='40' rx='4' fill='%23c9d6bd'/%3E%3Crect x='72' y='164' width='92' height='7' rx='3' fill='%23d9d3c1'/%3E%3Crect x='72' y='180' width='72' height='7' rx='3' fill='%23d9d3c1'/%3E%3Crect x='224' y='120' width='122' height='84' rx='8' fill='%23e6dcc5'/%3E%3Ccircle cx='286' cy='162' r='22' fill='%23c08a5e' opacity='.75'/%3E%3C/svg%3E"
+               alt="手作间桌面与陶土作品的特写画面" width="400" height="250">
+          <figcaption>手作间 · 陶土慢塑记录</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23d9e2d4'/%3E%3Crect y='150' width='400' height='100' fill='%232f4a3a' opacity='.18'/%3E%3Cg stroke='%23fffdf7' stroke-width='3' opacity='.8'%3E%3Cpath d='M20 216 H380'/%3E%3Cpath d='M46 216 V150'/%3E%3Cpath d='M92 216 V168'/%3E%3Cpath d='M138 216 V140'/%3E%3Cpath d='M184 216 V176'/%3E%3Cpath d='M230 216 V156'/%3E%3Cpath d='M276 216 V184'/%3E%3Cpath d='M322 216 V160'/%3E%3Cpath d='M368 216 V174'/%3E%3C/g%3E%3Ccircle cx='330' cy='76' r='24' fill='%23e8d3a8'/%3E%3C/svg%3E"
+               alt="城市漫步影像画面：傍晚街灯与安静步道" width="400" height="250">
+          <figcaption>城市漫步 · 傍晚的安静街道</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-focus" aria-labelledby="sl-focus-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">焦点推荐</p>
+          <h2 class="sl-h2" id="sl-focus-title">慢一点，看得更清楚</h2>
+          <p class="sl-lead">本季焦点围绕「慢生活」展开：一段完整的晨间记录、一次手作长镜头，以及一位创作者与镜头的安静对话。所有内容均为官方发布的高清正版。</p>
+        </div>
+        <a class="sl-more-link" href="#sl-topics">查看全部专题 →</a>
+      </div>
+
+      <div class="sl-video-layout">
+        <article class="sl-feature-card sl-reveal">
+          <div class="sl-feature-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23e6ead9'/%3E%3Cpath d='M0 262 Q160 214 320 248 T640 236 V360 H0 Z' fill='%235c7a5e'/%3E%3Cpath d='M0 300 Q180 268 360 296 T640 286 V360 H0 Z' fill='%232f4a3a'/%3E%3Ccircle cx='508' cy='92' r='44' fill='%23e8d3a8' opacity='.9'/%3E%3Cg fill='%23fffdf7' opacity='.7'%3E%3Ccircle cx='132' cy='92' r='3'/%3E%3Ccircle cx='182' cy='120' r='2.4'/%3E%3Ccircle cx='238' cy='88' r='2'/%3E%3C/g%3E%3Cpath d='M462 360 L512 206 L536 206 L494 360 Z' fill='%23474a3a' opacity='.45'/%3E%3C/svg%3E"
+                 alt="焦点视频封面：黄昏山脊上的慢行身影" width="640" height="360">
+            <div class="sl-play-badge">
+              <span class="sl-play-btn" aria-hidden="true"></span>
+            </div>
+            <span class="sl-feature-duration">12:48</span>
+          </div>
+          <div class="sl-feature-body">
+            <h3>《把一天调成 0.5 倍速》：从清晨到黄昏的完整记录</h3>
+            <p class="sl-feature-excerpt">官方发布的本季主推长片。镜头跟随创作者穿过菜市场、手作台与傍晚河岸，全程几乎不使用快剪，把呼吸、脚步与光线变化完整保留。适合在周末午后安静看完。</p>
+            <div class="sl-meta-row">
+              <span class="sl-meta-author">@慢山纪事</span>
+              <span>· 慢生活影像</span>
+              <span>· 18.6 万播放</span>
+              <span class="sl-score-badge">口碑 9.4</span>
+            </div>
+            <div class="sl-actions">
+              <button class="sl-action-btn sl-like-btn" type="button" data-count="1842">♡ 点赞 <span class="sl-like-num">1842</span></button>
+              <button class="sl-action-btn sl-save-btn" type="button">☆ 收藏</button>
+              <button class="sl-action-btn sl-comment-btn" type="button" data-title="《把一天调成 0.5 倍速》：从清晨到黄昏的完整记录">💬 评论</button>
+              <button class="sl-action-btn sl-copy-btn" type="button" data-title="《把一天调成 0.5 倍速》：从清晨到黄昏的完整记录">⧉ 复制链接</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="sl-list-stack">
+          <article class="sl-video-item sl-reveal">
+            <div class="sl-video-item-head">
+              <h3>手作长镜头：一只陶杯从泥料到窑变的 40 分钟</h3>
+              <span class="sl-video-rank">01</span>
+            </div>
+            <p>几乎不剪的完整工序记录，只保留必要字幕。创作者在片尾解释了为何坚持一镜到底。</p>
+            <div class="sl-video-tags"><span class="sl-mini-tag">手作DIY</span><span class="sl-mini-tag">教程干货</span></div>
+            <div class="sl-video-foot">
+              <span class="sl-meta-author">@陶土星期三</span><span>7.2 万播放</span><span>收藏 2,104</span>
+              <button class="sl-icon-btn sl-like-btn" type="button" data-count="936">♡ 936</button>
+            </div>
+          </article>
+          <article class="sl-video-item sl-reveal">
+            <div class="sl-video-item-head">
+              <h3>城市漫步：沿着旧河道走完一个下午</h3>
+              <span class="sl-video-rank">02</span>
+            </div>
+            <p>用环境音替代旁白，记录城市边缘被遗忘的步道与桥洞，适合通勤路上安静观看。</p>
+            <div class="sl-video-tags"><span class="sl-mini-tag">城市探索</span><span class="sl-mini-tag">在地文化</span></div>
+            <div class="sl-video-foot">
+              <span class="sl-meta-author">@河边散步的人</span><span>5.8 万播放</span><span>收藏 1,530</span>
+              <button class="sl-icon-btn sl-like-btn" type="button" data-count="711">♡ 711</button>
+            </div>
+          </article>
+          <article class="sl-video-item sl-reveal">
+            <div class="sl-video-item-head">
+              <h3>访谈：为什么我们越来越需要慢一点的内容</h3>
+              <span class="sl-video-rank">03</span>
+            </div>
+            <p>主持人对话三位签约创作者，聊节奏焦虑、注意力与影像中的留白。</p>
+            <div class="sl-video-tags"><span class="sl-mini-tag">人物访谈</span><span class="sl-mini-tag">行业观察</span></div>
+            <div class="sl-video-foot">
+              <span class="sl-meta-author">@慢镜头编辑部</span><span>4.1 万播放</span><span>收藏 980</span>
+              <button class="sl-icon-btn sl-like-btn" type="button" data-count="624">♡ 624</button>
+            </div>
+          </article>
+          <article class="sl-video-item sl-reveal">
+            <div class="sl-video-item-head">
+              <h3>雨天厨房：一锅炖菜与两小时的白噪音</h3>
+              <span class="sl-video-rank">04</span>
+            </div>
+            <p>低照度拍摄与真实收音，把雨天、切菜声与等待的时间一起端上桌。</p>
+            <div class="sl-video-tags"><span class="sl-mini-tag">美食烹饪</span><span class="sl-mini-tag">治愈影像</span></div>
+            <div class="sl-video-foot">
+              <span class="sl-meta-author">@小锅慢炖</span><span>3.6 万播放</span><span>收藏 1,020</span>
+              <button class="sl-icon-btn sl-like-btn" type="button" data-count="508">♡ 508</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-topics" aria-labelledby="sl-topics-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">专题企划</p>
+          <h2 class="sl-h2" id="sl-topics-title">正在更新的三组慢企划</h2>
+          <p class="sl-lead">专题由官方网站编辑部与签约创作者共同策划，按月更新，全部内容可回看、可收藏、可参与投票。</p>
+        </div>
+      </div>
+      <div class="sl-topic-grid">
+        <article class="sl-topic-card sl-reveal">
+          <div class="sl-topic-top">
+            <h3>冬日常 · 慢一点生活实验</h3>
+            <span class="sl-topic-state is-hot">更新中</span>
+          </div>
+          <p>为期六周的冬季记录计划，鼓励创作者每天只拍一个长镜头，用极少的剪辑保存真实生活。</p>
+          <ul class="sl-topic-list">
+            <li>第 3 期：把早餐吃到二十分钟</li>
+            <li>第 4 期：一个下午只做一件事</li>
+            <li>第 5 期：冬夜散步与路边灯光</li>
+          </ul>
+        </article>
+        <article class="sl-topic-card sl-reveal">
+          <div class="sl-topic-top">
+            <h3>手作慢速 · 从泥料到成品</h3>
+            <span class="sl-topic-state">每周五更新</span>
+          </div>
+          <p>聚焦手作完整流程的教程专题，强调可控节奏与失败复盘，适合零基础观众跟着练习。</p>
+          <ul class="sl-topic-list">
+            <li>陶杯：拉坯与修坯的完整记录</li>
+            <li>木作：一把小勺的十二道工序</li>
+            <li>织物：植物染的两周等待</li>
+          </ul>
+        </article>
+        <article class="sl-topic-card sl-reveal">
+          <div class="sl-topic-top">
+            <h3>城市留白 · 不赶路的人</h3>
+            <span class="sl-topic-state">征集中</span>
+          </div>
+          <p>面向社区征集的城市观察企划，寻找被忽略的角落、慢速交通与旧建筑的日常细节。</p>
+          <ul class="sl-topic-list">
+            <li>征集：你所在城市最安静的一条路</li>
+            <li>共创：把散步画面做成声音地图</li>
+            <li>投票：下期拍摄哪座旧车站</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-authors" aria-labelledby="sl-authors-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">创作者矩阵</p>
+          <h2 class="sl-h2" id="sl-authors-title">把节奏握在自己手里的人</h2>
+          <p class="sl-lead">以下四位为官网签约创作者，长期更新慢生活影像。点击卡片可查看完整档案与代表作品。</p>
+        </div>
+      </div>
+      <div class="sl-authors-grid">
+        <article class="sl-author-card sl-reveal">
+          <span class="sl-avatar" style="background:#5c7a5e" aria-hidden="true">慢山</span>
+          <div class="sl-author-main">
+            <div class="sl-author-name"><h3>慢山纪事</h3><span class="sl-author-field">治愈影像</span></div>
+            <p class="sl-author-desc">常驻山野的记录者，擅长用固定机位与自然光拍摄长镜头。坚持每支片子保留三分钟以上无剪辑段落，认为等待本身就是内容的一部分。</p>
+            <div class="sl-author-stats"><span>作品 <b>86</b></span><span>粉丝 <b>12.4 万</b></span></div>
+            <button class="sl-btn sl-btn-ghost sl-author-btn" type="button" style="margin-top:12px;padding:7px 16px;font-size:12px" data-author="慢山纪事">查看档案</button>
+          </div>
+        </article>
+        <article class="sl-author-card sl-reveal">
+          <span class="sl-avatar" style="background:#c08a5e" aria-hidden="true">陶土</span>
+          <div class="sl-author-main">
+            <div class="sl-author-name"><h3>陶土星期三</h3><span class="sl-author-field">手作DIY</span></div>
+            <p class="sl-author-desc">陶瓷工作室主理人，视频以完整工序与工具讲解见长。擅长把失败过程一并放出，让观众看到手作的真实成本，社区口碑长期稳定在前列。</p>
+            <div class="sl-author-stats"><span>作品 <b>64</b></span><span>粉丝 <b>9.8 万</b></span></div>
+            <button class="sl-btn sl-btn-ghost sl-author-btn" type="button" style="margin-top:12px;padding:7px 16px;font-size:12px" data-author="陶土星期三">查看档案</button>
+          </div>
+        </article>
+        <article class="sl-author-card sl-reveal">
+          <span class="sl-avatar" style="background:#4a5d6b" aria-hidden="true">河边</span>
+          <div class="sl-author-main">
+            <div class="sl-author-name"><h3>河边散步的人</h3><span class="sl-author-field">城市探索</span></div>
+            <p class="sl-author-desc">城市观察者，主攻步行影像与环境声采集。镜头常对准旧桥、河堤与菜市场，用几乎没有旁白的方式呈现在地文化，被观众称为城市的安静旁白。</p>
+            <div class="sl-author-stats"><span>作品 <b>73</b></span><span>粉丝 <b>8.6 万</b></span></div>
+            <button class="sl-btn sl-btn-ghost sl-author-btn" type="button" style="margin-top:12px;padding:7px 16px;font-size:12px" data-author="河边散步的人">查看档案</button>
+          </div>
+        </article>
+        <article class="sl-author-card sl-reveal">
+          <span class="sl-avatar" style="background:#7a6a8a" aria-hidden="true">小锅</span>
+          <div class="sl-author-main">
+            <div class="sl-author-name"><h3>小锅慢炖</h3><span class="sl-author-field">美食烹饪</span></div>
+            <p class="sl-author-desc">家庭厨房创作者，专注低照度拍摄与真实收音。她的视频常常没有背景音乐，只留下汤沸、切菜与窗外的雨声，让烹饪过程自然成为陪伴。</p>
+            <div class="sl-author-stats"><span>作品 <b>58</b></span><span>粉丝 <b>7.2 万</b></span></div>
+            <button class="sl-btn sl-btn-ghost sl-author-btn" type="button" style="margin-top:12px;padding:7px 16px;font-size:12px" data-author="小锅慢炖">查看档案</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-parsing" aria-labelledby="sl-parsing-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">关键词解析</p>
+          <h2 class="sl-h2" id="sl-parsing-title">「慢一点视频」到底是什么</h2>
+          <p class="sl-lead">这一段来自品牌编辑部的长期观察，尝试把一种观看方式讲清楚。</p>
+        </div>
+      </div>
+      <div class="sl-video-layout">
+        <div style="min-width:0">
+          <h3 class="sl-h3">一、它首先是一种节奏主张</h3>
+          <p style="font-size:14.5px;color:#3d4a3f;line-height:1.9;margin:10px 0 18px">「啊啊啊不要啊啊啊慢一点视频」并不是要否定快节奏，而是提醒创作者和观众：信息密度不等于观看价值。在官方网站的编辑标准里，一段视频能否被称为「慢一点」，取决于它是否留给观众反应时间。比如一支三分钟的手作短片，如果每个工序之间都留出半秒空白，观众的注意力就能跟上手指动作；而同样的素材若压进四十秒，画面会变成纯信息流。平台在审核时会关注这种节奏，官方发布的内容默认标注「慢节奏」「常速」「可倍速」三类观看提示，帮助用户按自己的状态选择。</p>
+          <h3 class="sl-h3">二、它对画面与声音提出更具体的要求</h3>
+          <p style="font-size:14.5px;color:#3d4a3f;line-height:1.9;margin:10px 0 18px">慢一点视频对画质的要求反而更高。因为镜头停留时间更长，观众会看到更多细节：窗台的灰尘、陶土的水痕、傍晚光线的移动。因此平台要求重点内容至少 1080P，官方专题推荐 4K，并尽量保留环境声。声音是这类内容真正的基础层——锅里的水声、远处的车流、手指摩擦陶土的声音，都比配乐更能建立信任。我们的剪辑指引里有一条很朴素的原则：先问这段声音是否真实，再问它是否好听。这也是官方网站坚持「高清」与「正版」两个关键词的原因，搬运和二次压缩会直接破坏这类内容的质感。</p>
+          <h3 class="sl-h3">三、它正在形成一种社区文化</h3>
+          <p style="font-size:14.5px;color:#3d4a3f;line-height:1.9;margin:10px 0 18px">当创作者愿意放慢，观众的表达也会随之变化。社区里最常见的评论不再是「三分钟看完」，而是「我跟着做了一遍」「我今晚也去走了那条路」。这种反馈让内容生态进入正向循环：有人记录，有人实践，有人再记录。平台因此设置了投稿与共创入口，每月征集一个慢主题，并公开投票结果。我们也在持续运营创作者答疑日，让作者直接回应拍摄与剪辑问题。对品牌而言，慢一点视频不是单一品类，而是一种值得信赖的社区氛围——它让企业、创作者与用户处在同一张安静的桌边，彼此陪伴，共同成长。</p>
+        </div>
+        <div class="sl-list-stack">
+          <div class="sl-video-item">
+            <div class="sl-video-item-head"><h3>观看提示 · 三类标注</h3></div>
+            <p>慢节奏适合周末整段观看；常速适合通勤；可倍速适合二刷抓细节。官方发布内容均带标注。</p>
+          </div>
+          <div class="sl-video-item">
+            <div class="sl-video-item-head"><h3>品牌数据 · 内容生态</h3></div>
+            <p>2,380+ 原创作品；146 位签约创作者；93% 社区好评。数据由官网每月更新，接受社区监督。</p>
+          </div>
+          <div class="sl-video-item">
+            <div class="sl-video-item-head"><h3>社会责任 · 慢影像计划</h3></div>
+            <p>面向县域创作者开放免费拍摄培训与设备借用，2026 年已覆盖 9 个城市，持续运营中。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-voices" aria-labelledby="sl-voices-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">用户口碑</p>
+          <h2 class="sl-h2" id="sl-voices-title">来自社区的真实评价</h2>
+          <p class="sl-lead">以下评价来自官网注册用户，内容不做修饰，仅做匿名处理。</p>
+        </div>
+      </div>
+      <div class="sl-review-layout">
+        <div class="sl-review-list">
+          <article class="sl-review-item sl-reveal">
+            <div class="sl-review-head">
+              <span class="sl-review-face" style="background:#5c7a5e">林</span>
+              <span class="sl-review-name">林舟</span>
+              <span class="sl-review-stars" aria-label="评分 5 星">★★★★★</span>
+            </div>
+            <p class="sl-review-body">第一次完整看完一支四十分钟的手作视频，居然没有快进。工序之间的等待很真实，评论区还有作者补充工具链接，体验很完整。</p>
+            <p class="sl-review-date">2026-11-14</p>
+          </article>
+          <article class="sl-review-item sl-reveal">
+            <div class="sl-review-head">
+              <span class="sl-review-face" style="background:#c08a5e">陈</span>
+              <span class="sl-review-name">陈小满</span>
+              <span class="sl-review-stars" aria-label="评分 4 星">★★★★☆</span>
+            </div>
+            <p class="sl-review-body">城市漫步系列特别适合下班路上听。唯一希望增加的是每条路线的地图标注，有时候想自己走一遍却不知道起点。</p>
+            <p class="sl-review-date">2026-11-09</p>
+          </article>
+          <article class="sl-review-item sl-reveal">
+            <div class="sl-review-head">
+              <span class="sl-review-face" style="background:#4a5d6b">周</span>
+              <span class="sl-review-name">周末不加班</span>
+              <span class="sl-review-stars" aria-label="评分 5 星">★★★★★</span>
+            </div>
+            <p class="sl-review-body">投稿流程比想象中简单，上传之后两天内收到编辑反馈，指出了收音问题，也给了修改建议。这种认真程度让人愿意继续投。</p>
+            <p class="sl-review-date">2026-11-02</p>
+          </article>
+          <article class="sl-review-item sl-reveal">
+            <div class="sl-review-head">
+              <span class="sl-review-face" style="background:#7a6a8a">许</span>
+              <span class="sl-review-name">许一页</span>
+              <span class="sl-review-stars" aria-label="评分 5 星">★★★★★</span>
+            </div>
+            <p class="sl-review-body">很喜欢「把一天调成 0.5 倍速」那支片子。看完真的去菜市场逛了一圈，买了从没买过的菜。平台能带来这种行动，很难得。</p>
+            <p class="sl-review-date">2026-10-28</p>
+          </article>
+          <article class="sl-review-item sl-reveal">
+            <div class="sl-review-head">
+              <span class="sl-review-face" style="background:#8a7a5e">何</span>
+              <span class="sl-review-name">何同学</span>
+              <span class="sl-review-stars" aria-label="评分 4 星">★★★★☆</span>
+            </div>
+            <p class="sl-review-body">内容质量稳定，但希望手机端增加离线缓存。地铁上信号不好时，慢视频卡顿一次就会打断节奏。</p>
+            <p class="sl-review-date">2026-10-21</p>
+          </article>
+          <article class="sl-review-item sl-reveal">
+            <div class="sl-review-head">
+              <span class="sl-review-face" style="background:#5e7a8a">顾</span>
+              <span class="sl-review-name">顾南</span>
+              <span class="sl-review-stars" aria-label="评分 5 星">★★★★★</span>
+            </div>
+            <p class="sl-review-body">在慢影像计划里学过一次拍摄课，老师讲得细，还借了设备。后来我自己拍了一条河堤短片，居然也被官方推荐了。</p>
+            <p class="sl-review-date">2026-10-16</p>
+          </article>
+        </div>
+        <aside class="sl-score-panel sl-reveal" aria-label="评分摘要">
+          <h3>社区口碑摘要</h3>
+          <p class="sl-score-big">9.2<span>/ 10</span></p>
+          <div class="sl-score-bars">
+            <div class="sl-score-bar-row">内容质量<div class="sl-score-bar-line"><div class="sl-score-bar-track"><div class="sl-score-bar-fill" style="width:94%"></div></div><span class="sl-score-bar-val">9.4</span></div></div>
+            <div class="sl-score-bar-row">观看体验<div class="sl-score-bar-line"><div class="sl-score-bar-track"><div class="sl-score-bar-fill" style="width:90%"></div></div><span class="sl-score-bar-val">9.0</span></div></div>
+            <div class="sl-score-bar-row">社区氛围<div class="sl-score-bar-line"><div class="sl-score-bar-track"><div class="sl-score-bar-fill" style="width:92%"></div></div><span class="sl-score-bar-val">9.2</span></div></div>
+            <div class="sl-score-bar-row">投稿反馈<div class="sl-score-bar-line"><div class="sl-score-bar-track"><div class="sl-score-bar-fill" style="width:88%"></div></div><span class="sl-score-bar-val">8.8</span></div></div>
+          </div>
+          <p class="sl-score-note">基于近 90 天 1,860 条有效评价统计，每月 1 日更新。官方网站承诺不筛选负面反馈，仅对隐私信息做处理。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-news" aria-labelledby="sl-news-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">企业动态</p>
+          <h2 class="sl-h2" id="sl-news-title">官方发布与社区更新</h2>
+        </div>
+      </div>
+      <div class="sl-news-strip">
+        <article class="sl-news-card sl-reveal">
+          <p class="sl-news-date">2026-11-20</p>
+          <h3>「冬日常」专题上线 12 条新影像</h3>
+          <p>本期新增晨间记录、冬夜散步与厨房慢炖三类内容，全部支持 4K 回看，专题页已开放投票。</p>
+        </article>
+        <article class="sl-news-card sl-reveal">
+          <p class="sl-news-date">2026-11-12</p>
+          <h3>创作者扶持计划第 7 期名单公布</h3>
+          <p>共 18 位创作者入选，覆盖手作、城市观察与自然记录方向，将获得拍摄基金与官方推荐位。</p>
+        </article>
+        <article class="sl-news-card sl-reveal">
+          <p class="sl-news-date">2026-11-03</p>
+          <h3>社区投稿通道延长至 11 月 30 日</h3>
+          <p>上传入口保持开放，新增「一条长镜头」单元，鼓励用更少剪辑保留现场真实声音。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="sl-section" id="sl-faq" aria-labelledby="sl-faq-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">常见问题</p>
+          <h2 class="sl-h2" id="sl-faq-title">关于观看、投稿与品牌</h2>
+        </div>
+      </div>
+      <div class="sl-faq-list">
+        <details class="sl-faq-item">
+          <summary>「慢一点视频」需要会员才能观看吗？</summary>
+          <p>官方网站绝大多数原创内容免费开放，无需会员即可观看 1080P。少量 4K 专题与线下活动回放面向注册用户开放，注册不收费。</p>
+        </details>
+        <details class="sl-faq-item">
+          <summary>投稿有题材和时长限制吗？</summary>
+          <p>题材不限，但需为原创且拥有完整版权。建议单条 3 至 45 分钟，画质 1080P 起。若以长镜头为主，请在投稿说明中标注，编辑会优先安排审看。</p>
+        </details>
+        <details class="sl-faq-item">
+          <summary>如何成为签约创作者？</summary>
+          <p>先在官网提交不少于 3 条作品，编辑会在 7 个工作日内反馈。签约后享有分成、推荐位与拍摄支持，同时需遵守原创与正版承诺。</p>
+        </details>
+        <details class="sl-faq-item">
+          <summary>平台对搬运内容如何处理？</summary>
+          <p>一经核实会下架并限制账号上传权限，同时公示处理结果。我们坚持正版与原创，这是社区口碑的基础，也是企业持续运营的底线。</p>
+        </details>
+        <details class="sl-faq-item">
+          <summary>可以在手机上离线观看吗？</summary>
+          <p>App 端已支持离线缓存，网页端暂不支持。建议在稳定网络环境下观看高清内容，避免节奏被打断。</p>
+        </details>
+        <details class="sl-faq-item">
+          <summary>如何参与社区投票与共创？</summary>
+          <p>专题页与公告条会定期发布投票入口，注册用户每人每期一票。共创单元会在投稿后台开放选题，入选作品由编辑部与创作者共同完成。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="sl-section" aria-labelledby="sl-partners-title">
+      <div class="sl-section-head">
+        <div>
+          <p class="sl-eyebrow">合作与共创</p>
+          <h2 class="sl-h2" id="sl-partners-title">与我们同行的伙伴</h2>
+        </div>
+      </div>
+      <div class="sl-partner-row">
+        <span class="sl-partner">慢影像基金</span>
+        <span class="sl-partner">城市步行协会</span>
+        <span class="sl-partner">陶土工坊联盟</span>
+        <span class="sl-partner">县域创作者计划</span>
+        <span class="sl-partner">社区共看空间</span>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="sl-footer">
+  <div class="sl-wrap">
+    <div class="sl-footer-grid">
+      <div class="sl-footer-brand">
+        <h2>啊啊啊不要啊啊啊慢一点视频</h2>
+        <p>官方网站 · 慢生活影像与原创高清视频社区。我们坚持原创、正版与品质，持续运营，陪伴每一位愿意慢下来的人。品牌所有内容受版权保护，转载须获授权。</p>
+      </div>
+      <div class="sl-footer-col">
+        <h3>浏览</h3>
+        <a href="#sl-focus">焦点内容</a>
+        <a href="#sl-topics">专题企划</a>
+        <a href="#sl-authors">创作者矩阵</a>
+        <a href="#sl-voices">用户口碑</a>
+      </div>
+      <div class="sl-footer-col">
+        <h3>关于</h3>
+        <a href="#sl-about">品牌故事</a>
+        <a href="#sl-parsing">关键词解析</a>
+        <a href="#sl-news">企业动态</a>
+        <a href="#sl-faq">帮助中心</a>
+      </div>
+    </div>
+    <div class="sl-footer-bottom">
+      <span>© 2026 啊啊啊不要啊啊啊慢一点视频 官方网站 · 持续运营中</span>
+      <span>内容版权登记号：SL-2026-1130 · 备案信息：慢影备 2026 第 0071 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="sl-back-top" id="sl-back-top" type="button" aria-label="回到顶部">↑</button>
+<div class="sl-toast" id="sl-toast" role="status" aria-live="polite"></div>
+
+<div class="sl-modal-mask" id="sl-modal-mask" role="dialog" aria-modal="true" aria-labelledby="sl-modal-title">
+  <div class="sl-modal" id="sl-modal-box">
+    <button class="sl-modal-close" id="sl-modal-close" type="button" aria-label="关闭弹窗">×</button>
+    <div id="sl-modal-content"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var body = document.body;
+  var $ = function(sel, ctx){ return (ctx || document).querySelector(sel); };
+  var $$ = function(sel, ctx){ return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); };
+
+  function toast(msg){
+    var t = $("#sl-toast");
+    t.textContent = msg;
+    t.classList.add("is-visible");
+    clearTimeout(t._timer);
+    t._timer = setTimeout(function(){ t.classList.remove("is-visible"); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = $("#sl-burger");
+  var mobileNav = $("#sl-mobile-nav");
+  burger.addEventListener("click", function(){
+    var open = mobileNav.classList.toggle("is-open");
+    burger.classList.toggle("is-open", open);
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+  $$("#sl-mobile-nav a").forEach(function(a){
+    a.addEventListener("click", function(){
+      mobileNav.classList.remove("is-open");
+      burger.classList.remove("is-open");
+      burger.setAttribute("aria-expanded", "false");
+    });
+  });
+
+  /* 搜索反馈 */
+  var searchForm = $("#sl-search-form");
+  var searchInput = $("#sl-search-input");
+  var searchFeedback = $("#sl-search-feedback");
+  var searchData = [
+    "把一天调成 0.5 倍速", "手作长镜头：一只陶杯", "城市漫步：旧河道", "访谈：为什么需要慢一点",
+    "雨天厨房：一锅炖菜", "慢山纪事", "陶土星期三", "河边散步的人", "小锅慢炖",
+    "冬日常", "城市留白", "手作慢速", "慢影像计划", "投稿通道", "创作者扶持计划"
+  ];
+  searchForm.addEventListener("submit", function(e){
+    e.preventDefault();
+    var q = searchInput.value.trim();
+    if(!q){
+      searchFeedback.textContent = "请输入关键词后再搜索，例如「冬日常」「手作」「城市漫步」。";
+      searchFeedback.classList.add("is-visible");
+      return;
+    }
+    var hit = searchData.filter(function(item){ return item.indexOf(q) !== -1; });
+    if(hit.length){
+      searchFeedback.textContent = "找到 " + hit.length + " 条相关内容：" + hit.slice(0,4).join("、") + "。已为你标注相关板块。";
+    }else{
+      searchFeedback.textContent = "暂未找到与「" + q + "」直接相关的内容，可尝试更短的关键词，或前往投稿入口提交选题。";
+    }
+    searchFeedback.classList.add("is-visible");
+    toast("搜索已提交");
+  });
+
+  /* 点赞 +1 / 取消 */
+  $$(".sl-like-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var numEl = btn.querySelector(".sl-like-num");
+      var count = parseInt(btn.getAttribute("data-count"), 10) || 0;
+      var liked = btn.classList.toggle("is-liked");
+      var next = liked ? count + 1 : count;
+      btn.setAttribute("data-count", next);
+      if(numEl){ numEl.textContent = next; }
+      else { btn.textContent = (liked ? "♥ " : "♡ ") + next; }
+      toast(liked ? "已点赞 +1" : "已取消点赞");
+    });
+  });
+
+  /* 收藏切换 */
+  $$(".sl-save-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var saved = btn.classList.toggle("is-saved");
+      btn.textContent = saved ? "★ 已收藏" : "☆ 收藏";
+      toast(saved ? "已加入收藏夹" : "已取消收藏");
+    });
+  });
+
+  /* 复制链接 */
+  $$(".sl-copy-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var title = btn.getAttribute("data-title") || "慢一点视频";
+      var text = "「" + title + "」— 啊啊啊不要啊啊啊慢一点视频 官方网站推荐内容";
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){ toast("链接已复制"); }, function(){ toast("复制失败，请手动复制"); });
+      }else{
+        toast("当前环境不支持自动复制，已为你展示标题：" + title);
+      }
+    });
+  });
+
+  /* 弹窗基础 */
+  var mask = $("#sl-modal-mask");
+  var modalContent = $("#sl-modal-content");
+  function openModal(html){
+    modalContent.innerHTML = html;
+    mask.classList.add("is-open");
+    $("#sl-modal-close").focus();
+  }
+  function closeModal(){ mask.classList.remove("is-open"); }
+  $("#sl-modal-close").addEventListener("click", closeModal);
+  mask.addEventListener("click", function(e){ if(e.target === mask){ closeModal(); } });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape" && mask.classList.contains("is-open")){ closeModal(); } });
+
+  /* 评论弹窗 */
+  $$(".sl-comment-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var title = btn.getAttribute("data-title") || "该视频";
+      openModal(
+        '<h3>参与讨论</h3>' +
+        '<p class="sl-modal-sub">正在评论：' + title + '</p>' +
+        '<div class="sl-field"><label for="sl-comment-text">你的评论</label>' +
+        '<textarea id="sl-comment-text" placeholder="说说你看到这里时的感受，或分享一个想实践的小计划。"></textarea></div>' +
+        '<div class="sl-modal-actions">' +
+        '<button class="sl-btn sl-btn-primary" type="button" id="sl-comment-send">发布评论</button>' +
+        '<button class="sl-btn sl-btn-ghost" type="button" id="sl-comment-cancel">取消</button>' +
+        '</div>'
+      );
+      var send = $("#sl-comment-send");
+      var cancel = $("#sl-comment-cancel");
+      if(send){ send.addEventListener("click", function(){
+        var val = $("#sl-comment-text").value.trim();
+        if(!val){ toast("评论不能为空"); return; }
+        closeModal();
+        toast("评论已发布，感谢你的分享");
+      }); }
+      if(cancel){ cancel.addEventListener("click", closeModal); }
+    });
+  });
+
+  /* 作者档案弹窗 */
+  $$(".sl-author-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var name = btn.getAttribute("data-author");
+      var map = {
+        "慢山纪事": "常驻山野的治愈影像创作者，代表系列《山间一周》。作品以固定机位与自然光见长，坚持保留长镜头。",
+        "陶土星期三": "陶瓷工作室主理人，代表系列《一只杯子的四十道工序》。视频以完整工序与失败复盘著称。",
+        "河边散步的人": "城市观察者，代表系列《沿着旧河道走一个下午》。擅长环境声采集与无旁白叙事。",
+        "小锅慢炖": "家庭厨房创作者，代表系列《雨天厨房》。专注低照度拍摄与真实收音，很少使用背景音乐。"
+      };
+      openModal(
+        '<h3>' + name + '</h3>' +
+        '<p class="sl-modal-sub">官方网站签约创作者 · 长期更新慢生活影像</p>' +
+        '<p style="font-size:13.5px;color:#3d4a3f;line-height:1.85">' + (map[name] || "该创作者长期在站内更新原创高清内容。") + '</p>' +
+        '<div class="sl-modal-actions"><button class="sl-btn sl-btn-primary" type="button" id="sl-follow-btn">关注创作者</button>' +
+        '<button class="sl-btn sl-btn-ghost" type="button" id="sl-close-2">关闭</button></div>'
+      );
+      var follow = $("#sl-follow-btn");
+      var close2 = $("#sl-close-2");
+      if(follow){ follow.addEventListener("click", function(){ closeModal(); toast("已关注 " + name); }); }
+      if(close2){ close2.addEventListener("click", closeModal); }
+    });
+  });
+
+  /* 投稿弹窗 */
+  var submitOpen = $("#sl-submit-open");
+  function openSubmit(){
+    openModal(
+      '<h3>投稿入口</h3>' +
+      '<p class="sl-modal-sub">原创 · 正版 · 高清，编辑会在 7 个工作日内反馈</p>' +
+      '<form id="sl-submit-form">' +
+      '<div class="sl-field"><label for="sl-submit-name">作品名称</label><input id="sl-submit-name" type="text" placeholder="例如：冬夜散步的十分钟"></div>' +
+      '<div class="sl-field"><label for="sl-submit-cat">内容方向</label><select id="sl-submit-cat"><option>慢生活影像</option><option>手作DIY</option><option>城市探索</option><option>美食烹饪</option><option>人物访谈</option></select></div>' +
+      '<div class="sl-field"><label for="sl-submit-desc">一句话介绍</label><textarea id="sl-submit-desc" placeholder="这条片子拍了什么，为什么值得慢一点看？"></textarea></div>' +
+      '<div class="sl-modal-actions"><button class="sl-btn sl-btn-primary" type="submit">提交作品</button>' +
+      '<button class="sl-btn sl-btn-ghost" type="button" id="sl-submit-cancel">取消</button></div>' +
+      '</form>'
+    );
+    var form = $("#sl-submit-form");
+    var cancel = $("#sl-submit-cancel");
+    if(form){
+      form.addEventListener("submit", function(e){
+        e.preventDefault();
+        var name = $("#sl-submit-name").value.trim();
+        if(!name){ toast("请填写作品名称"); return; }
+        closeModal();
+        toast("投稿已提交，编辑将尽快审看");
+      });
+    }
+    if(cancel){ cancel.addEventListener("click", closeModal); }
+  }
+  if(submitOpen){ submitOpen.addEventListener("click", openSubmit); }
+
+  /* 回到顶部 */
+  var backTop = $("#sl-back-top");
+  window.addEventListener("scroll", function(){
+    if(window.scrollY > 620){ backTop.classList.add("is-visible"); }
+    else{ backTop.classList.remove("is-visible"); }
+  }, { passive:true });
+  backTop.addEventListener("click", function(){
+    window.scrollTo({ top:0, behavior:"smooth" });
+  });
+
+  /* 滚动显现 */
+  if("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){ entry.target.classList.add("is-in"); io.unobserve(entry.target); }
+      });
+    }, { threshold:.12, rootMargin:"0px 0px -40px 0px" });
+    $$(".sl-reveal").forEach(function(el){ io.observe(el); });
+  }else{
+    $$(".sl-reveal").forEach(function(el){ el.classList.add("is-in"); });
+  }
+})();
+</script>
+</body>
+  </html>
